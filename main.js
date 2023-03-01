@@ -1,7 +1,7 @@
 
 // getting elements from html
 
-let timeElement = document.getElementById("timedisplay")
+let timeElement = document.getElementById(".watch .time")
 let startButton=document.getElementById("start");
 let stopButton=document.getElementById("stop");
 let resetButton=document.getElementById("reset");
