@@ -1,4 +1,4 @@
-let timeElement=document.querySelector('.watch .time');
+let timeElement = document.getElementById("timedisplay")
 let startButton=document.getElementById("start");
 let stopButton=document.getElementById("stop");
 let resetButton=document.getElementById("reset");
