@@ -1,16 +1,19 @@
 
-
+/* *{ is for all elements in html */
 *{
     box-sizing:border-box;
     margin: 0;
     font-family: 'fira sans', sans-serif;
 } 
 
+/* background-color */
+
 body{
     background-color: #1f2937;
     color:#f3f4f6;
 }
 
+/* time and buttons container */
 .watch{
     text-align: center;
     background-color: #111827;
