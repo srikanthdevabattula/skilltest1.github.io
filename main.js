@@ -1,12 +1,18 @@
+
+// getting elements from html
+
 let timeElement = document.getElementById("timedisplay")
 let startButton=document.getElementById("start");
 let stopButton=document.getElementById("stop");
 let resetButton=document.getElementById("reset");
 
+// initial display time is 0 seconds
+// interval wad defined after start button clicked
 
 let seconds=0;
 let interval=null;
 
+// click on the start button to start the timer. we using setInterval function for update the value
 startButton.onclick=function(){
     if(interval){
         return
@@ -28,13 +34,13 @@ startButton.onclick=function(){
     },1000);
 }
 
-
+// to stop the timer we use the clearInterval 
 stopButton.onclick=function(){
     clearInterval(interval);
     interval=null;
 }
 
-
+// click on the reset the timer will go to 0
 resetButton.onclick=function(){
     clearInterval(interval);
     interval=null;
